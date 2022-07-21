@@ -1,0 +1,70 @@
+.dice .one div:first-child{
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+}
+.dice .two div:first-child{
+    grid-column: 3/ span 1;
+    grid-row: 1 / span 1;
+}
+.dice .two div:last-child{
+    grid-column: 1/ span 1;
+    grid-row: 3 / span 1;
+}
+
+.dice .three div:nth-child(2){
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+}
+.dice .three div:last-child{
+    grid-column: 3/ span 1;
+    grid-row: 3/ span 1;
+}
+
+.dice .four div:nth-child(2){
+    grid-column: 1/ span 1;
+    grid-row: 3/ span 1;
+}
+.dice .four div:nth-child(3){
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 1;
+}
+.dice .four div:last-child{
+    grid-column: 3/ span 1;
+    grid-row: 3/ span 1;
+}
+
+
+
+.dice .five div:nth-child(2){
+    grid-column: 1/ span 1;
+    grid-row: 3/ span 1;
+}
+.dice .five div:nth-child(3){
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+}
+.dice .five div:nth-child(4){
+    grid-column: 3/ span 1;
+    grid-row: 1/ span 1;
+}
+.dice .five div:last-child{
+    grid-column: 3/ span 1;
+    grid-row: 3/ span 1;
+}
+
+.dice .six div:nth-child(2){
+    grid-column: 3/ span 1;
+}
+.dice .six div:nth-child(4){
+    grid-column: 3/ span 1;
+}
+.dice .six div:last-child{
+    grid-column: 3/ span 1;
+}
+
+.dice .nine{
+    background-color: rgb(110, 110, 110);
+}
+.dice .nine div div{
+    background-color: rgb(53, 52, 52);
+}
